@@ -97,7 +97,7 @@ def generateAscentFile(climber):
         print(f"Exception {e} occured!")
 
 def generatePerson(file, climber):
-    ascent_file = "".join(climber[0].split()) + ".md"
+    ascent_file = "".join(climber[0].split()) + ".html"
     file.write(f"## {climber[3]}. {climber[0]} ([Dodatkowe informacje]({ascent_file}))\n")
     file.write(f"* __Liczba Punktów:__ {climber[4]}\n")
     file.write(f"* __Rok urodzenia:__ {climber[1]}\n")
