@@ -2,19 +2,20 @@ from duckduckgo_search import DDGS
 import requests
 from bs4 import BeautifulSoup
 
-
-YEAR = 2024 # Top X climbers from this year
 NUMBER_OF_PEOPLE = 10 # For this script to work, this value must be between 0 and 50    
 
-FILE_NAME = "international.md"
+# FILE_NAME = "international.md"
 # FILE_NAME = "poland.md"
 # FILE_NAME = "italy.md"
-# FILE_NAME = "usa.md"
+FILE_NAME = "usa.md"
 
-url = "https://www.8a.nu/ranking/bouldering?topAscents=top10&gender=combined&style=combined&time=lastyear&age=combined&country" # INTERNATIONAL
+# url = "https://www.8a.nu/ranking/bouldering?topAscents=top10&gender=combined&style=combined&time=lastyear&age=combined&country" # INTERNATIONAL
 # url = "https://www.8a.nu/ranking/bouldering?country=poland" # POLAND
 # url = "https://www.8a.nu/ranking/bouldering?country=italy" # ITALY
-# url = "https://www.8a.nu/ranking/bouldering?country=united-states" # USA
+url = "https://www.8a.nu/ranking/bouldering?country=united-states" # USA
+
+
+
 
 def generateHeader(file):
     country = FILE_NAME.split(".")[0].strip()
@@ -28,7 +29,6 @@ def generateHeader(file):
         file.write(f"# Ranking wspinaczy w USA\n")
     else:
         file.write(f"# Ranking wspinaczy\n")
-
 
 def findInstagramProfile(name):
     query = f"{name} climber instagram"
