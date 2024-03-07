@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <header>
+            <h1>
+                Ranking wspinaczy na świecie
+            </h1>
+        </header>
+
+        <article>
+            <h2> Zasada działania</h2>
+            <p>Ta strona zawiera ranking 10ciu najlepszych wspinaczy
+                boulderowych
+                <strong>na świecie/w Polsce/we Włoszech/w USA</strong>
+                z ostatnich 12 miesięcy wraz z dodatkowymi informacjami o nich.
+                Za każdy pokonany boulder przyznawana jest wyspecyfikowana
+                <a href="https://poleszc.github.io./punktacja.html"> tutaj </a>
+                tutaj liczba punktów.
+            </p>
+
+            <details>
+                <summary>
+                    <strong><span
+                            style="color: papayawhip">Bouldering</span></strong>
+                </summary>
+                <p style="color: palevioletred">
+                    Bouldering to forma wspinaczki, która polega na pokonywaniu
+                    niewysokich skał
+                    bez użycia zabezpieczeń, takich jak linie lub zaczepy, a
+                    zamiast tego polega
+                    na technice i siłach mięśniowych. Wspinacze używają
+                    wyłącznie maty ochronnej,
+                    znaną jako crash pad, aby złagodzić upadki. Bouldering
+                    rozwija siłę, zręczność,
+                    równowagę oraz umiejętność rozwiązywania problemów podczas
+                    pokonywania tras na skałach.
+                    Jest popularną formą rekreacyjnej aktywności fizycznej oraz
+                    dyscypliną sportową,
+                    która wymaga od wspinaczy strategii, determinacji i
+                    skupienia. Chociaż bouldering
+                    może być wykonywany na zewnątrz, na naturalnych skałach,
+                    istnieją również specjalnie
+                    zaprojektowane ścianki wspinaczkowe, które symulują warunki
+                    terenowe.
+                    <br>
+                    ~ChatGPT
+                </p>
+            </details>
+
+            <h2> Ranking w postaci tabeli </h2>
+            <table>
+                <caption>
+                    <strong>Tabela wspinaczy w kolejnosci</strong>
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Osoba</th>
+                        <th scope="col">Liczba Punktow</th>
+                        <th scope="col">Rok urodzenia</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Vadim Timonov</th>
+                        <td>12171</td>
+                        <td>1996</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">William Bosi</th>
+                        <td>11898</td>
+                        <td>1998</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pietro Vidi</th>
+                        <td>11783</td>
+                        <td>2002</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Zach Galla</th>
+                        <td>11766</td>
+                        <td>1997</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Austin Purdy</th>
+                        <td>11700</td>
+                        <td>1997</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="2">Średnia data urodzenia</th>
+                        <td>1998</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+            <h2>Ranking w postaci listy po rzymsku</h2>
+            <ol type="I">
+                <li> Vadim <strong><em>Timonov</em></strong> </li>
+                <li> William <strong><em>Bosi</em></strong> </li>
+                <li> Pietro <strong><em>Vidi</em></strong> </li>
+                <li> Zach <strong><em>Galla</em></strong> </li>
+                <li> Austin <strong><em>Purdy</em></strong> </li>
+            </ol>
+
+            <h1>Kto twoim zdaniem jest najlepszy</h1>
+
+            <form>
+                <label for="fname"><strong>Twoje imie:</strong></label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="file">Procent wypełnienia ankiety:</label>
+                <progress id="file" max="100" value="25">25%</progress><br><br>
+
+                <label for="fname"><strong>Twoje nazwisko:</strong></label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="file">Procent wypełnienia ankiety:</label>
+                <progress id="file" max="100" value="50">0%</progress><br><br>
+
+                <label for="radio"><strong>Który ze wspinaczy jest
+                        najlepszy?</strong></label><br>
+                <input type="radio" id="timonov" name="fav_climber"
+                    value="HTML">
+                <label for="timonov">VadimTimonov</label><br>
+                <input type="radio" id="bosi" name="fav_climber" value="CSS">
+                <label for="bosi">William Bosi</label><br>
+                <input type="radio" id="vidi" name="fav_climber"
+                    value="JavaScript">
+                <label for="vidi">Pietro Vidi</label><br>
+                <input type="radio" id="galla" name="fav_climber"
+                    value="JavaScript">
+                <label for="galla">Zach Galla</label><br>
+                <input type="radio" id="purdy" name="fav_climber"
+                    value="JavaScript">
+                <label for="purdy">Austin Purdy</label><br>
+                <label for="file">Procent wypełnienia ankiety:</label>
+                <progress id="file" max="100" value="75">0%</progress><br>
+
+                <h2>Wybierz jeszcze raz to samo ale w inny sposob, bo muszę użyć
+                    selecta</h2>
+                <label for="climber_select"><strong>Najlepszy wspinacz według
+                        ciebie:</strong></label><br>
+                <select id="climber_select">
+                    <optgroup label="Rosjanie">
+                        <option>Vadim Timonov</option>
+                    </optgroup>
+                    <optgroup label="Włosi">
+                        <option>Pietro Vidi</option>
+                    </optgroup>
+                    <optgroup label="Brytyjczycy">
+                        <option>William Bosi</option>
+                    </optgroup>
+                    <optgroup label="Amerykanie">
+                        <option>Zach Galla</option>
+                        <option>Austin Purdy</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for="file">Procent wypełnienia ankiety:</label>
+                <progress id="file" max="100" value="100">0%</progress><br><br>
+                <button type="button">Zaakceptuj odpowiedz</button>
+            </form>
+
+            <h2>Mapa najpopularnrniejszych rejonow wspinaczkowych polsce<h2>
+                    <img src="polska.png" alt="mapa_polski" usemap="#workmap"
+                        width="592" height="534">
+                    <map>
+                        <area shape="circle" coords="410,250,120" alt="kamien"
+                            href="https://27crags.com/crags/kamien-michniowski/">
+                        <area shape="rect" coords="281,401,396,533"
+                            alt="zimny_dol"
+                            href="https://27crags.com/crags/zimny-dol/">
+                        <area shape="rect" coords="0,109,280,291" alt="bunkry"
+                            href="https://27crags.com/crags/festung-posen">
+                        <area shape="rect" coords="0,297,280,533" alt="rudawy"
+                            href="https://27crags.com/crags/rudawy-janowickie/">
+                        <area shape="rect" coords="397,423,591,533"
+                            alt="ciezkowice"
+                            href="https://27crags.com/crags/ciezkowice/">
+                        <area shape="rect" coords="0,0,591,108" alt="nicTuNieNa"
+                            href="niema.html">
+                    </map>
+
+                    <h2>Pierwszy lepszy film wspinaczkowy z dysku</h2>
+                    <video width="320" height="240" controls>
+                        <source src = film.mp4 type="video/mp4">
+                        Twoja przegladarka nie obsługuje odtwarzacza video.
+                    </video>
+                    </article>
+
+                    <h2>Pierwszy lepszy film wspinaczkowy z sieci</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=lC7xs8Wgwvw&t=141s&ab_channel=StanleyHunter">
+                    </article>
+
+                    <footer>
+                        <h2> Żródła </h2>
+                        <img src="vertical_life_logo.png" alt="8a.nu logo"
+                            width="500" height="500">
+                        <a href="https://www.8a.nu/"> 8a.nu </a>
+                    </footer>
+                </body>
+            </html>
