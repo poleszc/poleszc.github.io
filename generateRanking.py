@@ -98,7 +98,8 @@ def generateAscentFile(climber):
 
 def generatePerson(file, climber):
     ascent_file = "".join(climber[0].split()) + ".html"
-    file.write(f"## {climber[3]}. {climber[0]} ([Dodatkowe informacje]({ascent_file}))\n")
+    full = "people/" + ascent_file
+    file.write(f"## {climber[3]}. {climber[0]} ([Dodatkowe informacje]({full}))\n")
     file.write(f"* __Liczba Punktów:__ {climber[4]}\n")
     file.write(f"* __Rok urodzenia:__ {climber[1]}\n")
     file.write(f"* __Kraj:__ {climber[2]}\n")
