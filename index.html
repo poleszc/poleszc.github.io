@@ -7,25 +7,37 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
+    <body class="bg-gray-100 w-1/2">
         <header>
-            <h1>
-                Ranking wspinaczy na świecie
-            </h1>
+            <div class="shadow-2xl bg-blue-200 rounded mb-4 mt-4">
+                <h1 class="text-center text-2xl font-bold underline">
+                    Ranking wspinaczy na świecie
+                </h1>
+            </div>
         </header>
 
         <article>
-            <h2 class="text-sky-500"> Zasada działania</h2>
-            <p>Ta strona zawiera informaje o <strong>najlepszych
+            <div class="shadow-2xl bg-blue-200 rounded">
+                <h2 class="text-xl text-center text-blue-600 font-bold"> Zasada
+                    działania</h2>
+            </div>
+            <p class="text-center">Ta strona zawiera informaje o <strong>najlepszych
                     wspinaczach</strong> boulderowych na świecie
-                z ostatnich 12 miesięcy wraz z dodatkowymi informacjami o nich.
-                Za każdy pokonany boulder przyznawana jest wyspecyfikowana
-                <a href="./punktacja.html"> tutaj </a> tutaj liczba punktów.
+                z ostatnich 12 miesięcy wraz z dodatkowymi informacjami o nich.</p>
+                
+                <p class="text-center">Za każdy pokonany boulder przyznawana jest wyspecyfikowana
+                <a href="punktacja.html" class="text-red-600 hover:text-red-400 underline"> tutaj
+                </a> liczba punktów.</p>
             </p>
 
-            <h2>Dowiedz się czym jest wspinanie:</h2>
+            <div class="shadow-2xl bg-blue-200 rounded mt-4">
+                <h2 class="text-xl text-center text-blue-600 font-bold"> Dowiedz
+                    się, czym jest wspinanie:
+                </h2>
+            </div>
+            <h2 class="text-xl text-blue-600 font-bold"></h2>
             <details>
-                <summary><strong>Wspinaczka</strong></summary>
+                <summary class="font-bold">Wspinaczka</summary>
                 <p>
                     <strong>Wspinaczka</strong> to sport lub aktywność
                     rekreacyjna polegająca na
@@ -108,90 +120,141 @@
                             na niewielkiej wysokości.
                         </p>
                     </details>
-
                     <br>
                     <em>~ChatGPT</em>
                 </p>
             </details>
 
-            <h2>Ranking wspinaczy na świecie z ostatnim roku</h2>
-            <ol type="I">
-                <li> Vadim <strong><em>Timonov</em></strong> </li>
-                <li> William <strong><em>Bosi</em></strong> </li>
-                <li> Pietro <strong><em>Vidi</em></strong> </li>
-                <li> Zach <strong><em>Galla</em></strong> </li>
-                <li> Austin <strong><em>Purdy</em></strong> </li>
-            </ol>
+            <div class="shadow-2xl bg-blue-200 rounded mt-4">
+                <h2 class="text-xl text-center text-blue-600 font-bold">
+                    Ranking najlepszych wspinaczy na świecie w ostatnim roku:
+                </h2>
+            </div>
 
-            <h2> Liczba punktów uzyskana przez poszczególnych wspinaczy</h2>
-            <table>
-                <caption>
-                    <strong>Tabela wspinaczy w kolejnosci</strong>
-                </caption>
+            <div class="flex justify-center items-center">
+                <ol type="I" class="list-[upper-roman]">
+                    <li> Vadim <strong><em>Timonov</em></strong> </li>
+                    <li> William <strong><em>Bosi</em></strong> </li>
+                    <li> Pietro <strong><em>Vidi</em></strong> </li>
+                    <li> Zach <strong><em>Galla</em></strong> </li>
+                    <li> Austin <strong><em>Purdy</em></strong> </li>
+                </ol>
+            </div>
 
-                <thead>
-                    <tr>
-                        <th scope="col">Osoba</th>
-                        <th scope="col">Liczba Punktow</th>
-                        <th scope="col">Rok urodzenia</th>
-                    </tr>
-                </thead>
+            <div class="flex justify-center items-center mt-4">
+                <table
+                    class="table-auto border-collapse w-full bg-white shadow-md rounded-lg overflow-hidden">
+                    <caption
+                        class="text-center text-blue-600 bg-blue-200 text-xl font-bold py-2">
+                        Liczba
+                        punktów uzyskana
+                        przez poszczególnych wspinaczy:
+                    </caption>
+                    <thead class="bg-gray-800 text-white">
+                        <tr>
+                            <th class="px-4 py-2" scope="col">Osoba</th>
+                            <th class="px-4 py-2" scope="col">Liczba
+                                Punktów</th>
+                            <th class="px-4 py-2" scope="col">Rok urodzenia</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr>
+                            <th class="px-4 py-2">Vadim Timonov</th>
+                            <th class="px-4 py-2">12171</th>
+                            <th class="px-4 py-2">1996</th>
+                        </tr>
+                        <tr>
+                            <th class="px-4 py-2">William Bosi</th>
+                            <th class="px-4 py-2">11898</th>
+                            <th class="px-4 py-2">1998</th>
+                        </tr>
+                        <tr>
+                            <th class="px-4 py-2">Pietro Vidi</th>
+                            <th class="px-4 py-2">11783</th>
+                            <th class="px-4 py-2">2002</th>
+                        </tr>
+                        <tr>
+                            <th class="px-4 py-2">Zach Galla</th>
+                            <th class="px-4 py-2">11766</th>
+                            <th class="px-4 py-2">1997</th>
+                        </tr>
+                        <tr>
+                            <th class="px-4 py-2">Austin Purdy</th>
+                            <th class="px-4 py-2">11700</th>
+                            <th class="px-4 py-2">1997</th>
+                        </tr>
+                    </tbody>
+                    <tfoot class="bg-gray-800 text-white">
+                        <tr>
+                            <th class="px-4 py-2" colspan="2">Średnia data
+                                urodzenia</th>
+                            <td class="px-4 py-2">1998</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
 
-                <tbody>
-                    <tr>
-                        <th scope="row">Vadim Timonov</th>
-                        <td>12171</td>
-                        <td>1996</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">William Bosi</th>
-                        <td>11898</td>
-                        <td>1998</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Pietro Vidi</th>
-                        <td>11783</td>
-                        <td>2002</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Zach Galla</th>
-                        <td>11766</td>
-                        <td>1997</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Austin Purdy</th>
-                        <td>11700</td>
-                        <td>1997</td>
-                    </tr>
-                </tbody>
+            <div class="shadow-2xl bg-blue-200 rounded mt-4">
+                <h2 class="text-xl text-center text-blue-600 font-bold"> Mapa
+                    najpopularniejszych rejonow wspinaczkowych Polsce:
+                </h2>
+            </div>
+            <div class="flex justify-center items-center mt-4">
+                <img src="polska.png" alt="mapa_polski" usemap="#workmap"
+                    width="592" height="534">
+                <map name="workmap">
+                    <area shape="circle" coords="410,250,120" alt="kamien"
+                        href="https://27crags.com/crags/kamien-michniowski/">
+                    <area shape="rect" coords="281,401,396,533"
+                        alt="zimny_dol"
+                        href="https://27crags.com/crags/zimny-dol/">
+                    <area shape="rect" coords="0,109,280,291" alt="bunkry"
+                        href="https://27crags.com/crags/festung-posen">
+                    <area shape="rect" coords="0,297,280,533" alt="rudawy"
+                        href="https://27crags.com/crags/rudawy-janowickie/">
+                    <area shape="rect" coords="397,423,591,533"
+                        alt="ciezkowice"
+                        href="https://27crags.com/crags/ciezkowice/">
+                    <area shape="rect" coords="0,0,591,108" alt="nicTuNieNa"
+                        href="niema.html">
+                </map>
+            </div>
+        </article>
 
-                <tfoot>
-                    <tr>
-                        <th scope="row" colspan="2">Średnia data urodzenia</th>
-                        <td>1998</td>
-                    </tr>
-                </tfoot>
-
-            </table>
-
-            <h2>Krótka ankieta na koniec</h2>
-            <form>
+        <h2 class="text-xl text-blue-600 font-bold"> </h2>
+        <div class="shadow-2xl bg-blue-200 rounded mt-4">
+            <h2 class="text-xl text-center text-blue-600 font-bold"> Krótka
+                ankieta na
+                koniec:
+            </h2>
+        </div>
+        <div class="flex justify-center items-center mt-4">
+            <form class="w-full max-w-sm">
                 <label for="fname"><strong>Twoje imie:</strong></label><br>
-                <input type="text" id="fname" name="fname"><br>
+                <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-1 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                    type="text" id="fname" name="fname"><br>
                 <label for="file">Procent wypełnienia ankiety:</label>
-                <progress id="file" max="100" value="25">25%</progress><br><br>
+                <progress id="file" max="100"
+                    value="25">25%</progress><br><br>
 
-                <label for="fname"><strong>Twoje nazwisko:</strong></label><br>
-                <input type="text" id="fname" name="fname"><br>
+                <label for="fname"><strong>Twoje
+                        nazwisko:</strong></label><br>
+                <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-1 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                    type="text" id="fname" name="fname"><br>
                 <label for="file">Procent wypełnienia ankiety:</label>
-                <progress id="file" max="100" value="50">0%</progress><br><br>
+                <progress id="file" max="100"
+                    value="50">0%</progress><br><br>
 
                 <label for="radio"><strong>Który ze wspinaczy jest
                         najlepszy?</strong></label><br>
                 <input type="radio" id="timonov" name="fav_climber"
                     value="HTML">
                 <label for="timonov">VadimTimonov</label><br>
-                <input type="radio" id="bosi" name="fav_climber" value="CSS">
+                <input type="radio" id="bosi" name="fav_climber"
+                    value="CSS">
                 <label for="bosi">William Bosi</label><br>
                 <input type="radio" id="vidi" name="fav_climber"
                     value="JavaScript">
@@ -208,9 +271,10 @@
 
                 <label for="climber_select"><strong>Jaka jest twoja ulubiona
                         dziedzina wspinaczki?</strong></label><br>
-                <select id="climber_select">
+                <select id="climber_select"
+                    class="block w-full mt-1 bg-gray-100 border border-gray-300 text-gray-700 rounded-md focus:outline-none focus:ring focus:border-blue-300">
                     <optgroup label="Ściankowa">
-                        <option>Wspinaczna na trudność</option>
+                        <option>Wspinaczka na trudność</option>
                         <option>Bouldering</option>
                         <option>Wspinanie na czas</option>
                     </optgroup>
@@ -225,36 +289,31 @@
                 </select>
                 <br>
                 <label for="file">Procent wypełnienia ankiety:</label>
-                <progress id="file" max="100" value="100">0%</progress><br><br>
-                <button type="button">Zaakceptuj odpowiedz</button>
+                <progress id="file" max="100"
+                    value="100">0%</progress><br><br>
+                <div class="flex justify-center items-center mt-4">
+                    <button
+                        class="shadow bg-blue-500 hover:bg-blue-400 hover:animate-spin focus:shadow-outline focus:outline-none text-black font-bold py-2 px-20 rounded"
+                        type="submit">Zaakceptuj odpowiedz
+                    </button>
+                </div>
             </form>
+        </div>
 
-            <h2>Mapa najpopularnrniejszych rejonow wspinaczkowych polsce<h2>
-                    <img src="polska.png" alt="mapa_polski" usemap="#workmap"
-                        width="592" height="534">
-                    <map name="workmap">
-                        <area shape="circle" coords="410,250,120" alt="kamien"
-                            href="https://27crags.com/crags/kamien-michniowski/">
-                        <area shape="rect" coords="281,401,396,533"
-                            alt="zimny_dol"
-                            href="https://27crags.com/crags/zimny-dol/">
-                        <area shape="rect" coords="0,109,280,291" alt="bunkry"
-                            href="https://27crags.com/crags/festung-posen">
-                        <area shape="rect" coords="0,297,280,533" alt="rudawy"
-                            href="https://27crags.com/crags/rudawy-janowickie/">
-                        <area shape="rect" coords="397,423,591,533"
-                            alt="ciezkowice"
-                            href="https://27crags.com/crags/ciezkowice/">
-                        <area shape="rect" coords="0,0,591,108" alt="nicTuNieNa"
-                            href="niema.html">
-                    </map>
-                </article>
-
-                <footer>
-                    <h2> Żródła </h2>
-                    <img src="vertical_life_logo.png" alt="8a.nu logo"
-                        width="2000" height="337">
-                    <a href="https://www.8a.nu/"> 8a.nu </a>
-                </footer>
-            </body>
-        </html>
+        <footer class="mt-8">
+            <div>
+                <div class="shadow-2xl bg-blue-200 rounded mt-4">
+                    <h2 class="text-s text-center text-blue-600 font-bold">
+                        Źródła
+                    </h2>
+                </div>
+                <a href="https://www.8a.nu/">
+                    <div class="flex justify-center items-center mt-4">
+                        <img src="vertical_life_logo.png" alt="8a.nu logo"
+                            width="700" height="337">
+                    </div>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
