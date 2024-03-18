@@ -1,649 +1,736 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/build.css">
-        <title> AWWW Blok 02 | Grid Tester </title>
-    </head>
-    <body
-        class="bg-white grid grid-cols-6 grid-rows-16 gap-8 mt-2 mb-2 ml-2 mr-2">
-        <!-- HEADER -->
-        <div
-            class="shadow-xl bg-gray-300 rounded-lg col-start-1 col-span-7 row-start-1 row-span-1">
-            <div class="shadow-xl bg-gray-900 rounded-lg ml-2 mr-2 mt-2 mb-2">
-                <h1 class="text-center text-white font-bold text-8xl ">
-                    RANKING WSPINACZY NA ŚWIECIE
-                </h1>
-            </div>
-        </div>
-        <!-- MENU -->
-        <div
-            class="shadow-2xl bg-gray-300 rounded col-start-1 row-start-2">
-            <div class=" bg-gray-900 rounded-lg shadow-xl ml-1 mr-2 mt-1 mb-1">
-                <h2 class="text-white text-4xl ml-2 font-bold text-center">
-                    Rankingi w innych
-                    krajach:</h2>
-            </div>
-            <div class="text-2xl flex ml-8">
-                <ol type="I" class="list-disc">
-                    <a
-                        href="https://www.8a.nu/ranking/bouldering?country=poland"><li
-                            class="hover:underline"> Ranking Polska </li></a>
-                    <a
-                        href="https://www.8a.nu/ranking/bouldering?country=germany"><li
-                            class="hover:underline"> Ranking Niemcy</li></a>
-                    <a
-                        href="https://www.8a.nu/ranking/bouldering?country=usa"><li
-                            class="hover:underline"> Ranking USA</li></a>
-                    <a
-                        href="https://www.8a.nu/ranking/bouldering?country=italy"><li
-                            class="hover:underline"> Ranking Włochy</li></a>
-                    <a href="#"></a><li class="hover:underline"> Najlepsze
-                        rejony wspinaczkowe w Polsce </li></a>
-            </ol>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>AWWW Blok 02</title>
+  </head>
+
+  <body
+    class="bg-white grid grid-cols-6 grid-rows-16 gap-8 mt-2 mb-2 ml-2 mr-2"
+  >
+    <!-- HEADER -->
+    <div
+      class="shadow-xl bg-gray-300 rounded-lg col-start-1 col-span-7 row-start-1 row-span-1"
+    >
+      <div class="shadow-xl bg-gray-900 rounded-lg ml-2 mr-2 mt-2 mb-2">
+        <h1 class="text-center text-white font-bold text-8xl">
+          RANKING WSPINACZY NA ŚWIECIE
+        </h1>
+      </div>
+    </div>
+    <!-- MENU -->
+    <div
+      class="shadow-2xl bg-gray-300 rounded-lg col-start-1 row-start-2 row-span-1"
+    >
+      <div class="bg-gray-900 rounded-lg shadow-xl ml-1 mr-2 mt-1 mb-1">
+        <h2 class="text-white text-4xl ml-2 font-bold text-center">
+          Rankingi w innych krajach:
+        </h2>
+      </div>
+      <div class="text-2xl flex ml-8">
+        <ol type="I" class="list-disc">
+          <a href="https://www.8a.nu/ranking/bouldering?country=poland">
+            <li class="hover:underline">Ranking Polska</li>
+          </a>
+          <a href="https://www.8a.nu/ranking/bouldering?country=germany">
+            <li class="hover:underline">Ranking Niemcy</li>
+          </a>
+          <a href="https://www.8a.nu/ranking/bouldering?country=usa">
+            <li class="hover:underline">Ranking USA</li>
+          </a>
+          <a href="https://www.8a.nu/ranking/bouldering?country=italy">
+            <li class="hover:underline">Ranking Włochy</li>
+          </a>
+          <a href="https://www.8a.nu/ranking/bouldering?country=spain">
+            <li class="hover:underline">Ranking Hiszpania</li>
+          </a>
+          <a href="https://www.8a.nu/ranking/bouldering?country=switzerland">
+            <li class="hover:underline">Ranking Szwajcaria</li>
+          </a>
+          <a href="https://www.8a.nu/ranking/bouldering?country=austria">
+            <li class="hover:underline">Ranking Austria</li>
+          </a>
+          <a href="https://www.8a.nu/ranking/bouldering?country=united-kingdom">
+            <li class="hover:underline">Ranking Wielka Brytania</li>
+          </a>
+        </ol>
+      </div>
+      <div class="bg-gray-900 rounded-lg shadow-xl ml-1 mr-2 mt-1 mb-1">
+        <h2 class="text-white text-4xl mt-4 ml-2 font-bold text-center">
+          Rejony wspinaczkowe w Polsce
+        </h2>
+      </div>
+      <img
+        src="images/polska.png"
+        alt="mapa_polski"
+        usemap="#workmap"
+        width="592"
+        height="534"
+      />
+      <map name="workmap">
+        <area
+          shape="circle"
+          coords="410,250,120"
+          alt="kamien"
+          href="https://27crags.com/crags/kamien-michniowski/"
+        />
+        <area
+          shape="rect"
+          coords="281,401,396,533"
+          alt="zimny_dol"
+          href="https://27crags.com/crags/zimny-dol/"
+        />
+        <area
+          shape="rect"
+          coords="0,109,280,291"
+          alt="bunkry"
+          href="https://27crags.com/crags/festung-posen"
+        />
+        <area
+          shape="rect"
+          coords="0,297,280,533"
+          alt="rudawy"
+          href="https://27crags.com/crags/rudawy-janowickie/"
+        />
+        <area
+          shape="rect"
+          coords="397,423,591,533"
+          alt="ciezkowice"
+          href="https://27crags.com/crags/ciezkowice/"
+        />
+      </map>
     </div>
     <!-- FORM -->
     <div
-        class="shadow-xl bg-gray-300 rounded-lg col-start-1 row-start-3 row-span-3">
-        <div class=" bg-gray-900 rounded shadow-2xl ml-1 mr-2 mt-2 mb-1">
-            <h2 class="text-white text-4xl ml-2 font-bold text-center"> Zapisz
-                się do
-                newslettera:</h2>
-        </div>
+      class="shadow-xl bg-gray-300 rounded-lg col-start-1 row-start-3 row-span-3"
+    >
+      <div class="bg-gray-900 rounded shadow-2xl ml-1 mr-2 mt-2 mb-1">
+        <h2 class="text-white text-4xl ml-2 font-bold text-center">
+          Zapisz się do newslettera:
+        </h2>
+      </div>
 
-        <div class="flex justify-center items-center mt-4">
-            <form class="text-2xl w-full max-w-sm ml-2 mr-2">
-                <label for="fname"><strong>Twoje imie:</strong></label><br>
-                <input
-                    class="bg-gray-100 hover:bg-white appearance-none border-2 border-gray-300 rounded w-full py-1 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                    type="text" id="fname" name="fname"><br>
-                <label for="file">Procent wypełnienia ankiety:</label>
-                <progress id="file" max="100"
-                    value="25">25%</progress><br>
+      <div class="flex justify-center items-center mt-4">
+        <form class="text-2xl w-full max-w-sm ml-2 mr-2">
+          <label for="fname"><strong>Twoje imie:</strong></label
+          ><br />
+          <input
+            class="bg-gray-100 hover:bg-white appearance-none border-2 border-gray-300 rounded w-full py-1 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+            type="text"
+            id="fname"
+            name="fname"
+          /><br />
+          <label for="file">Procent wypełnienia ankiety:</label>
+          <progress id="file" max="100" value="25">25%</progress><br />
 
-                <label for="fname"><strong>Twoje
-                        nazwisko:</strong></label><br>
-                <input
-                    class="bg-gray-100 hover:bg-white appearance-none border-2 border-gray-300 w-full rounded py-1 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                    type="text" id="fname" name="fname"><br>
-                <label for="file">Procent wypełnienia ankiety:</label>
-                <progress id="file" max="100"
-                    value="50">0%</progress><br>
+          <label for="fname"><strong>Twoje nazwisko:</strong></label
+          ><br />
+          <input
+            class="bg-gray-100 hover:bg-white appearance-none border-2 border-gray-300 w-full rounded py-1 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+            type="text"
+            id="fname"
+            name="fname"
+          /><br />
+          <label for="file">Procent wypełnienia ankiety:</label>
+          <progress id="file" max="100" value="50">0%</progress><br />
 
-                <label for="radio"><strong>Który ze wspinaczy jest
-                        najlepszy?</strong></label><br>
-                <input type="radio" id="timonov" name="fav_climber"
-                    value="HTML">
-                <label class="hover:underline" for="timonov">Vadim
-                    Timonov</label><br>
-                <input type="radio" id="bosi" name="fav_climber"
-                    value="CSS">
-                <label class="hover:underline" for="bosi">William
-                    Bosi</label><br>
-                <input type="radio" id="vidi" name="fav_climber"
-                    value="JavaScript">
-                <label class="hover:underline" for="vidi">Pietro
-                    Vidi</label><br>
-                <input type="radio" id="galla" name="fav_climber"
-                    value="JavaScript">
-                <label class="hover:underline" for="galla">Zach
-                    Galla</label><br>
-                <input type="radio" id="purdy" name="fav_climber"
-                    value="JavaScript">
-                <label class="hover:underline" for="purdy">Austin
-                    Purdy</label><br>
-                <label for="file">Procent wypełnienia ankiety:</label>
-                <progress id="file" max="100" value="75">0%</progress>
-                <br>
+          <label for="radio"
+            ><strong>Który ze wspinaczy jest najlepszy?</strong></label
+          ><br />
+          <input type="radio" id="timonov" name="fav_climber" value="HTML" />
+          <label class="hover:underline" for="timonov">Vadim Timonov</label
+          ><br />
+          <input type="radio" id="bosi" name="fav_climber" value="CSS" />
+          <label class="hover:underline" for="bosi">William Bosi</label><br />
+          <input type="radio" id="vidi" name="fav_climber" value="JavaScript" />
+          <label class="hover:underline" for="vidi">Pietro Vidi</label><br />
+          <input
+            type="radio"
+            id="galla"
+            name="fav_climber"
+            value="JavaScript"
+          />
+          <label class="hover:underline" for="galla">Zach Galla</label><br />
+          <input
+            type="radio"
+            id="purdy"
+            name="fav_climber"
+            value="JavaScript"
+          />
+          <label class="hover:underline" for="purdy">Austin Purdy</label><br />
+          <label for="file">Procent wypełnienia ankiety:</label>
+          <progress id="file" max="100" value="75">0%</progress>
+          <br />
 
-                <label for="climber_select"><strong>Jaka jest twoja ulubiona
-                        dziedzina wspinaczki?</strong></label><br>
-                <select id="climber_select"
-                    class="block w-full mt-1 bg-gray-100 hover:bg-white border border-gray-300 text-gray-700 rounded-md focus:outline-none focus:ring focus:border-blue-300">
-                    <optgroup label="Ściankowa">
-                        <option>Wspinaczka na trudność</option>
-                        <option>Bouldering</option>
-                        <option>Wspinanie na czas</option>
-                    </optgroup>
-                    <optgroup label="Skałkowa">
-                        <option>Wspinaczka na trudność</option>
-                        <option>Bouldering</option>
-                    </optgroup>
-                    <optgroup label="Inne">
-                        <option>Wspinaczka Lodowa</option>
-                        <option>Wspinaczka Tradycyjna</option>
-                    </optgroup>
-                </select>
+          <label for="climber_select"
+            ><strong
+              >Jaka jest twoja ulubiona dziedzina wspinaczki?</strong
+            ></label
+          ><br />
+          <select
+            id="climber_select"
+            class="block w-full mt-1 bg-gray-100 hover:bg-white border border-gray-300 text-gray-700 rounded-md focus:outline-none focus:ring focus:border-blue-300"
+          >
+            <optgroup label="Ściankowa">
+              <option>Wspinaczka na trudność</option>
+              <option>Bouldering</option>
+              <option>Wspinanie na czas</option>
+            </optgroup>
+            <optgroup label="Skałkowa">
+              <option>Wspinaczka na trudność</option>
+              <option>Bouldering</option>
+            </optgroup>
+            <optgroup label="Inne">
+              <option>Wspinaczka Lodowa</option>
+              <option>Wspinaczka Tradycyjna</option>
+            </optgroup>
+          </select>
 
-                <label for="file">Procent wypełnienia ankiety:</label>
-                <progress id="file" max="100"
-                    value="100">0%</progress><br>
-                <div class="flex justify-center items-center mt-2 mb-2">
-                    <button
-                        class="shadow bg-gray-700 hover:bg-gray-400 hover:animate-spin focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded"
-                        type="submit">Zaakceptuj odpowiedz
-                    </button>
-                </div>
-            </form>
-        </div>
+          <label for="file">Procent wypełnienia ankiety:</label>
+          <progress id="file" max="100" value="100">0%</progress><br />
+          <div class="flex justify-center items-center mt-2 mb-2">
+            <button
+              class="shadow bg-gray-700 hover:bg-gray-400 hover:animate-spin focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded"
+              type="submit"
+            >
+              Zaakceptuj odpowiedz
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
     <!-- MAIN CONTENT -->
     <div
-        class="shadow-xl bg-gray-300 rounded-lg col-start-2 col-span-6 row-start-2 row-span-4">
-        <div class="grid grid-cols-2 grid-rows-15 gap-2">
-            <div class="col-start-1 col-span-2 row-start-1">
-                <div
-                    class=" bg-gray-900 rounded-lg shadow-2xl ml-2 mr-2 mt-2 mb-1">
-                    <h2
-                        class="text-center text-white text-4xl ml-2 mt-1 font-bold">
-                        Zasada działania: </h2>
-                </div>
-                <p class="ml-4 mr-4 text-2xl">
-                    - Ta strona zawiera informaje o <strong>najlepszych
-                        wspinaczach</strong> boulderowych na świecie
-                    z ostatnich 12 miesięcy wraz z dodatkowymi informacjami o
-                    nich.
+      class="shadow-xl bg-gray-300 rounded-lg col-start-2 col-span-6 row-start-2 row-span-4"
+    >
+      <div class="grid grid-cols-2 grid-rows-15 gap-2">
+        <div class="col-start-1 col-span-2 row-start-1">
+          <div class="bg-gray-900 rounded-lg shadow-2xl ml-2 mr-2 mt-2 mb-1">
+            <h2 class="text-center text-white text-4xl ml-2 mt-1 font-bold">
+              Zasada działania:
+            </h2>
+          </div>
+          <p class="ml-4 mr-4 text-2xl">
+            - Ta strona zawiera informaje o
+            <strong>najlepszych wspinaczach</strong> boulderowych na świecie z
+            ostatnich 12 miesięcy wraz z dodatkowymi informacjami o nich.
+          </p>
+          <p class="ml-4 mr-4 text-2xl">
+            - Za każdy pokonany boulder przyznawana jest wyspecyfikowana
+            <a
+              href="punktacja.html"
+              class="text-red-600 hover:text-red-400 underline"
+            >
+              tutaj
+            </a>
+            liczba punktów.
+          </p>
+        </div>
+        <div class="col-start-1 col-span-2 row-start-2">
+          <div class="bg-gray-900 rounded-lg shadow-2xl ml-2 mr-2 mt-2 mb-1">
+            <h2 class="text-center text-4xl text-white ml-2 mt-1 font-bold">
+              Więcej o wspinaniu:
+            </h2>
+          </div>
+
+          <details class="ml-4">
+            <summary class="font-bold text-black text-3xl hover:text-gray-600">
+              Wspinaczka
+            </summary>
+            <p class="text-2xl">
+              <strong>Wspinaczka</strong> to sport lub aktywność rekreacyjna
+              polegająca na pokonywaniu różnych rodzajów naturalnych lub
+              sztucznych przeszkód w pionie lub poziomie przy użyciu własnych
+              sił fizycznych. Jest to także popularny sposób spędzania czasu na
+              świeżym powietrzu i rozwijania umiejętności fizycznych,
+              technicznych i umysłowych. Wspinaczka może być podzielona na kilka
+              głównych dyscyplin, w zależności od rodzaju terenu, którym
+              wspinacz się porusza, oraz technik używanych do pokonywania
+              przeszkód. <br />Oto kilka głównych dyscyplin wspinaczkowych:
+              <br />
+              <details>
+                <summary
+                  class="font-bold text-black hover:text-gray-600 text-2xl"
+                >
+                  Wspinaczka na skałach(sportowa, klasyczna)
+                </summary>
+                <p class="ml-4 text-2xl">
+                  Wspinaczka na skałach odbywa się na naturalnych formacjach
+                  skalnych lub sztucznych ścianach wspinaczkowych. Może to
+                  obejmować zarówno tereny poziome, jak i pionowe. W zależności
+                  od charakteru skał, wspinacze mogą używać różnych technik, w
+                  tym chwytów, trzymania, balansowania i dynamiki.
                 </p>
-                <p class="ml-4 mr-4 text-2xl"> - Za każdy pokonany boulder
-                    przyznawana jest wyspecyfikowana
-                    <a href="punktacja.html"
-                        class="text-red-600 hover:text-red-400 underline"> tutaj
-                    </a> liczba punktów.
+              </details>
+
+              <details>
+                <summary
+                  class="font-bold text-black hover:text-gray-600 text-2xl"
+                >
+                  Wspinaczka na lodzie
+                </summary>
+                <p class="ml-4 text-2xl">
+                  Ta dyscyplina obejmuje pokonywanie lodowych formacji, takich
+                  jak lodospady, ściany lodowe i lodowe kolumny. Wspinacze
+                  używają specjalnych sprzętów, takich jak czekany i
+                  rakieto-pazury, aby wspinać się po lodzie.
                 </p>
+              </details>
+              <details>
+                <summary
+                  class="font-bold text-black hover:text-gray-600 text-2xl"
+                >
+                  Wspinaczka alpejska
+                </summary>
+                <p class="ml-4 text-2xl">
+                  Wspinaczka alpejska to trawersowanie górskiego terenu, które
+                  może obejmować pokonywanie lodowych i skalnych przeszkód.
+                  Wspinacze często muszą stosować techniki jazdy na lodzie,
+                  wspinania się po lodzie i skałach oraz przemieszczania się po
+                  śniegu.
+                </p>
+              </details>
+              <details>
+                <summary
+                  class="font-bold text-black hover:text-gray-600 text-2xl"
+                >
+                  Wspinaczka sportowa
+                </summary>
+                <p class="ml-4 text-2xl">
+                  Wspinaczka sportowa odbywa się na specjalnie przygotowanych
+                  sztucznych ścianach wspinaczkowych. Jest to bardziej
+                  kontrolowane środowisko niż wspinaczka na skałach i często
+                  obejmuje konkurencje, takie jak prędkość, trudność i
+                  prowadzenie.
+                </p>
+              </details>
+              <details>
+                <summary
+                  class="font-bold text-black hover:text-gray-600 text-2xl"
+                >
+                  Bouldering
+                </summary>
+                <p class="ml-4 text-2xl">
+                  Bouldering to forma wspinaczki, w której wspinacz pokonuje
+                  krótkie trasy bez użycia liny lub uprzęży. Wspinacze pracują
+                  nad techniką i siłą w krótkich sekwencjach, zwykle na
+                  specjalnie zbudowanych blokach skał na niewielkiej wysokości.
+                </p>
+              </details>
+              <em class="text-2xl">~ChatGPT</em>
+            </p>
+          </details>
+        </div>
+        <div
+          class="col-start-1 col-span-2 row-start-3 row-span-3 flex justify-center items-center ml-2 mr-2"
+        >
+          <table
+            class="table-auto border-collapse w-full text-2xl bg-white shadow-md rounded-lg overflow-hidden"
+          >
+            <caption
+              class="text-center text-white bg-gray-900 text-4xl font-bold py-2"
+            >
+              Liczba punktów uzyskana przez poszczególnych wspinaczy:
+            </caption>
+            <thead class="bg-gray-700 text-white">
+              <tr>
+                <th class="px-4 py-2" scope="col">Osoba</th>
+                <th class="px-4 py-2" scope="col">Liczba Punktów</th>
+                <th class="px-4 py-2" scope="col">Rok urodzenia</th>
+              </tr>
+            </thead>
+            <tbody class="text-gray-700">
+              <tr>
+                <th class="px-4 py-2">Vadim Timonov</th>
+                <th class="px-4 py-2">12171</th>
+                <th class="px-4 py-2">1996</th>
+              </tr>
+              <tr>
+                <th class="px-4 py-2">William Bosi</th>
+                <th class="px-4 py-2">11898</th>
+                <th class="px-4 py-2">1998</th>
+              </tr>
+              <tr>
+                <th class="px-4 py-2">Pietro Vidi</th>
+                <th class="px-4 py-2">11783</th>
+                <th class="px-4 py-2">2002</th>
+              </tr>
+              <tr>
+                <th class="px-4 py-2">Zach Galla</th>
+                <th class="px-4 py-2">11766</th>
+                <th class="px-4 py-2">1997</th>
+              </tr>
+              <tr>
+                <th class="px-4 py-2">Austin Purdy</th>
+                <th class="px-4 py-2">11700</th>
+                <th class="px-4 py-2">1997</th>
+              </tr>
+            </tbody>
+            <tfoot class="bg-gray-700 text-white">
+              <tr>
+                <th class="px-4 py-2" colspan="2">Średnia data urodzenia</th>
+                <td class="px-4 py-2">1998</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div class="col-start-1 col-span-2 row-start-6">
+          <div class="bg-gray-900 rounded-lg shadow-2xl ml-2 mr-2 mt-2 mb-1">
+            <h3 class="text-center text-4xl text-white ml-2 mt-1 font-bold">
+              Więcej o zawodnikach:
+            </h3>
+          </div>
+        </div>
+        <div
+          class="col-start-1 col-span-1 row-start-7 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white"
+        >
+          <div
+            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl"
+          >
+            Vadim Timonov
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="images/vadim.jpeg"
+              alt="vadimtimonov"
+              width="700"
+              height="337"
+            />
+          </div>
+          <div
+            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg"
+          >
+            <div class="col-start-1">
+              <p class="ml-1">Kraj pochodzenia:</p>
+              <p class="ml-1">Najważniejsze przejście:</p>
+              <p class="ml-1">Wzrost:</p>
+              <p class="ml-1">Waga:</p>
             </div>
-            <div class="col-start-1 col-span-2 row-start-2">
-                <div
-                    class=" bg-gray-900 rounded-lg shadow-2xl ml-2 mr-2 mt-2 mb-1">
-                    <h2
-                        class="text-center text-4xl text-white ml-2 mt-1 font-bold">
-                        Więcej o wspinaniu: </h2>
-                </div>
-
-                <details class="ml-4">
-                    <summary
-                        class="font-bold text-black text-3xl hover:text-gray-600">Wspinaczka</summary>
-                    <p class="text-2xl">
-                        <strong>Wspinaczka</strong> to sport lub aktywność
-                        rekreacyjna polegająca na
-                        pokonywaniu różnych rodzajów naturalnych lub sztucznych
-                        przeszkód w pionie lub poziomie przy użyciu własnych sił
-                        fizycznych. Jest to także popularny sposób spędzania
-                        czasu
-                        na świeżym powietrzu i rozwijania umiejętności
-                        fizycznych,
-                        technicznych i umysłowych.
-                        Wspinaczka może być podzielona na kilka głównych
-                        dyscyplin,
-                        w zależności od rodzaju terenu, którym wspinacz się
-                        porusza,
-                        oraz technik używanych do pokonywania przeszkód.
-                        <br>Oto kilka głównych dyscyplin wspinaczkowych: <br>
-                        <details>
-                            <summary
-                                class="font-bold text-black hover:text-gray-600 text-2xl">Wspinaczka
-                                na skałach(sportowa,
-                                klasyczna)
-                            </summary>
-                            <p class="ml-4 text-2xl">
-                                Wspinaczka na skałach odbywa się na naturalnych
-                                formacjach skalnych
-                                lub sztucznych ścianach wspinaczkowych. Może to
-                                obejmować zarówno tereny
-                                poziome, jak i pionowe. W zależności od
-                                charakteru
-                                skał, wspinacze mogą
-                                używać różnych technik, w tym chwytów,
-                                trzymania,
-                                balansowania i dynamiki.
-                            </p>
-                        </details>
-
-                        <details>
-                            <summary
-                                class="font-bold text-black hover:text-gray-600 text-2xl">Wspinaczka
-                                na lodzie </summary>
-                            <p class="ml-4 text-2xl">
-                                Ta dyscyplina obejmuje pokonywanie
-                                lodowych formacji, takich jak lodospady, ściany
-                                lodowe i
-                                lodowe kolumny. Wspinacze używają specjalnych
-                                sprzętów,
-                                takich jak czekany i rakieto-pazury, aby wspinać
-                                się
-                                po
-                                lodzie.
-                            </p>
-                        </details>
-                        <details>
-                            <summary
-                                class="font-bold text-black hover:text-gray-600 text-2xl">Wspinaczka
-                                alpejska</summary>
-                            <p class="ml-4 text-2xl">
-                                Wspinaczka alpejska to trawersowanie
-                                górskiego terenu, które może obejmować
-                                pokonywanie
-                                lodowych
-                                i skalnych przeszkód. Wspinacze często muszą
-                                stosować
-                                techniki jazdy na lodzie, wspinania się po
-                                lodzie i
-                                skałach
-                                oraz przemieszczania się po śniegu.
-                            </p>
-                        </details>
-                        <details>
-                            <summary
-                                class="font-bold text-black hover:text-gray-600 text-2xl">Wspinaczka
-                                sportowa</summary>
-                            <p class="ml-4 text-2xl">
-                                Wspinaczka sportowa odbywa się na
-                                specjalnie przygotowanych sztucznych ścianach
-                                wspinaczkowych. Jest to bardziej kontrolowane
-                                środowisko niż
-                                wspinaczka na skałach i często obejmuje
-                                konkurencje,
-                                takie
-                                jak prędkość, trudność i prowadzenie.
-                            </p>
-                        </details>
-                        <details>
-                            <summary
-                                class="font-bold text-black hover:text-gray-600 text-2xl">Bouldering</summary>
-                            <p class="ml-4 text-2xl">
-                                Bouldering to forma wspinaczki, w której
-                                wspinacz pokonuje krótkie trasy bez użycia liny
-                                lub
-                                uprzęży.
-                                Wspinacze pracują nad techniką i siłą w krótkich
-                                sekwencjach, zwykle na specjalnie zbudowanych
-                                blokach skał
-                                na niewielkiej wysokości.
-                            </p>
-                        </details>
-                        <em class="text-2xl">~ChatGPT</em>
-                    </p>
-                </details>
+            <div class="col-start-2">
+              <p class="ml-1">Saint-Petersburg, Rosja</p>
+              <p class="ml-1">Backflip Sit 8C+</p>
+              <p></p>
+              <p class="ml-1">1,80m</p>
+              <p class="ml-1">75kg</p>
             </div>
             <div
-                class="col-start-1 col-span-2 row-start-3 row-span-3 flex justify-center items-center ml-2 mr-2">
-                <table
-                    class="table-auto border-collapse w-full text-2xl bg-white shadow-md rounded-lg overflow-hidden">
-                    <caption
-                        class="text-center text-white bg-gray-900 text-4xl font-bold py-2">
-                        Liczba
-                        punktów uzyskana
-                        przez poszczególnych wspinaczy:
-                    </caption>
-                    <thead class="bg-gray-700 text-white">
-                        <tr>
-                            <th class="px-4 py-2" scope="col">Osoba</th>
-                            <th class="px-4 py-2" scope="col">Liczba
-                                Punktów</th>
-                            <th class="px-4 py-2" scope="col">Rok urodzenia</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-gray-700">
-                        <tr>
-                            <th class="px-4 py-2"> Vadim Timonov</th>
-                            <th class="px-4 py-2">12171</th>
-                            <th class="px-4 py-2">1996</th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-2">William Bosi</th>
-                            <th class="px-4 py-2">11898</th>
-                            <th class="px-4 py-2">1998</th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-2">Pietro Vidi</th>
-                            <th class="px-4 py-2">11783</th>
-                            <th class="px-4 py-2">2002</th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-2">Zach Galla</th>
-                            <th class="px-4 py-2">11766</th>
-                            <th class="px-4 py-2">1997</th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-2">Austin Purdy</th>
-                            <th class="px-4 py-2">11700</th>
-                            <th class="px-4 py-2">1997</th>
-                        </tr>
-                    </tbody>
-                    <tfoot class="bg-gray-700 text-white">
-                        <tr>
-                            <th class="px-4 py-2" colspan="2">Średnia data
-                                urodzenia</th>
-                            <td class="px-4 py-2">1998</td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-            <div class="col-start-1 col-span-2 row-start-6">
+              class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center"
+            >
+              <a class="w-1/4" href="https://www.instagram.com/vadim_timonov/">
                 <div
-                    class=" bg-gray-900 rounded-lg shadow-2xl ml-2 mr-2 mt-2 mb-1">
-                    <h3
-                        class="text-center text-4xl text-white ml-2 mt-1 font-bold">
-                        Więcej o zawodnikach: </h3>
+                  class="flex items-center justify-center mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-90px"
+                >
+                  <img
+                    src="images/instagram.png"
+                    alt="ig_logo"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
                 </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-start-2 col-span-1 row-start-7 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white"
+        >
+          <div
+            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl"
+          >
+            William Bosi
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="images/will.png"
+              alt="willbosi"
+              width="700"
+              height="337"
+            />
+          </div>
+          <div
+            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg"
+          >
+            <div class="col-start-1">
+              <p class="ml-1">Kraj pochodzenia:</p>
+              <p class="ml-1">Najważniejsze przejście:</p>
+              <p class="ml-1">Wzrost:</p>
+              <p class="ml-1">Waga:</p>
+            </div>
+            <div class="col-start-2">
+              <p class="ml-1">Edynburg, Wielka Brytania</p>
+              <p class="ml-1">Burden of Dreams 9A</p>
+              <p></p>
+              <p class="ml-1">1,75m</p>
+              <p class="ml-1">67kg</p>
             </div>
             <div
-                class="col-start-1 col-span-1 row-start-7 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white">
+              class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center"
+            >
+              <a class="w-1/4" href="https://www.instagram.com/will_bosi/">
                 <div
-                    class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl">
-                    Vadim Timonov
+                  class="flex items-center justify-center mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-90px"
+                >
+                  <img
+                    src="images/instagram.png"
+                    alt="ig_logo"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
                 </div>
-                <div class="flex items-center justify-center">
-                    <img src="images/vadim.jpeg" alt="vadimtimonov"
-                        width="700" height="337">
-                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-start-1 col-span-1 row-start-8 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white"
+        >
+          <div
+            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl"
+          >
+            Pietro Vidi
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="images/pietro.png"
+              alt="pietrovidi"
+              width="700"
+              height="337"
+            />
+          </div>
+          <div
+            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg"
+          >
+            <div class="col-start-1">
+              <p class="ml-1">Kraj pochodzenia:</p>
+              <p class="ml-1">Najważniejsze przejście:</p>
+              <p class="ml-1">Wzrost:</p>
+              <p class="ml-1">Waga:</p>
+            </div>
+            <div class="col-start-2">
+              <p class="ml-1">Arco, Włochy</p>
+              <p class="ml-1">Dreamtime 8C</p>
+              <p></p>
+              <p class="ml-1">1,82m</p>
+              <p class="ml-1">79kg</p>
+            </div>
+            <div
+              class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center"
+            >
+              <a class="w-1/4" href="https://www.instagram.com/pie.vidi/">
                 <div
-                    class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg">
-                    <div class="col-start-1 ">
-                        <p class="ml-1">Kraj pochodzenia:</p>
-                        <p class="ml-1">Najważniejsze przejście:</p>
-                        <p class="ml-1">Wzrost:</p>
-                        <p class="ml-1">Waga:</p>
-                    </div>
-                    <div class="col-start-2">
-                        <p class="ml-1">Saint-Petersburg, Rosja</p>
-                        <p class="ml-1">Backflip Sit 8C+<p>
-                                <p class="ml-1">1,80m</p>
-                                <p class="ml-1">75kg</p>
-                            </div>
-                            <div
-                                class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center">
-                                <a
-                                    href="https://www.instagram.com/vadim_timonov/">
-                                    <div
-                                        class=" mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-full">
-                                        <p
-                                            class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-start-2 col-span-1 row-start-7 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white">
-                        <div
-                            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl">
-                            William Bosi
-                        </div>
-                        <div class="flex items-center justify-center">
-                            <img src="images/will.png" alt="willbosi"
-                                width="700" height="337">
-                        </div>
-                        <div
-                            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg">
-                            <div class="col-start-1 ">
-                                <p class="ml-1">Kraj pochodzenia:</p>
-                                <p class="ml-1">Najważniejsze przejście:</p>
-                                <p class="ml-1">Wzrost:</p>
-                                <p class="ml-1">Waga:</p>
-                            </div>
-                            <div class="col-start-2">
-                                <p class="ml-1">Edynburg, Wielka Brytania</p>
-                                <p class="ml-1">Burden of Dreams 9A<p>
-                                        <p class="ml-1">1,75m</p>
-                                        <p class="ml-1">67kg</p>
-                                    </div>
-                                    <div
-                                        class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center">
-                                        <a
-                                            href="https://www.instagram.com/will_bosi/">
-                                            <div
-                                                class=" mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-full">
-                                                <p
-                                                    class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                class="col-start-1 col-span-1 row-start-8 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white">
-                                <div
-                                    class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl">
-                                    Pietro Vidi
-                                </div>
-                                <div class="flex items-center justify-center">
-                                    <img src="images/pietro.png"
-                                        alt="pietrovidi"
-                                        width="700" height="337">
-                                </div>
-                                <div
-                                    class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg">
-                                    <div class="col-start-1 ">
-                                        <p class="ml-1">Kraj pochodzenia:</p>
-                                        <p class="ml-1">Najważniejsze
-                                            przejście:</p>
-                                        <p class="ml-1">Wzrost:</p>
-                                        <p class="ml-1">Waga:</p>
-                                    </div>
-                                    <div class="col-start-2">
-                                        <p class="ml-1">Arco, Włochy</p>
-                                        <p class="ml-1">Dreamtime 8C<p>
-                                                <p class="ml-1">1,82m</p>
-                                                <p class="ml-1">79kg</p>
-                                            </div>
-                                            <div
-                                                class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center">
-                                                <a
-                                                    href="https://www.instagram.com/pie.vidi/">
-                                                    <div
-                                                        class=" mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-full">
-                                                        <p
-                                                            class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="col-start-2 col-span-1 row-start-8 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white">
-                                        <div
-                                            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl">
-                                            Zach Galla
-                                        </div>
-                                        <div
-                                            class="flex items-center justify-center">
-                                            <img src="images/zach.png"
-                                                alt="zachgalla"
-                                                width="700" height="337">
-                                        </div>
-                                        <div
-                                            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg">
-                                            <div class="col-start-1 ">
-                                                <p class="ml-1">Kraj
-                                                    pochodzenia:</p>
-                                                <p class="ml-1">Najważniejsze
-                                                    przejście:</p>
-                                                <p class="ml-1">Wzrost:</p>
-                                                <p class="ml-1">Waga:</p>
-                                            </div>
-                                            <div class="col-start-2">
-                                                <p class="ml-1">Atlanta, USA</p>
-                                                <p class="ml-1">The Process
-                                                    8C+<p>
-                                                        <p
-                                                            class="ml-1">1,67m</p>
-                                                        <p class="ml-1">62kg</p>
-                                                    </div>
-                                                    <div
-                                                        class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center">
-                                                        <a
-                                                            href="https://www.instagram.com/zachgalla/">
-                                                            <div
-                                                                class=" mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-full">
-                                                                <p
-                                                                    class="ml-4 mr-4 mt-1 mb-2 text-2xl">
-                                                                    Instagram
-                                                                </p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="col-start-1 col-span-1 row-start-9 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white">
-                                                <div
-                                                    class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl">
-                                                    Austin Purdy
-                                                </div>
-                                                <div
-                                                    class="flex items-center justify-center">
-                                                    <img src="images/austin.png"
-                                                        alt="austinpurdy"
-                                                        width="700"
-                                                        height="337">
-                                                </div>
-                                                <div
-                                                    class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg">
-                                                    <div class="col-start-1 ">
-                                                        <p class="ml-1">Kraj
-                                                            pochodzenia:</p>
-                                                        <p
-                                                            class="ml-1">Najważniejsze
-                                                            przejście:</p>
-                                                        <p
-                                                            class="ml-1">Wzrost:</p>
-                                                        <p
-                                                            class="ml-1">Waga:</p>
-                                                    </div>
-                                                    <div class="col-start-2">
-                                                        <p class="ml-1">Spring,
-                                                            USA</p>
-                                                        <p
-                                                            class="ml-1">Insomniac
-                                                            8C+<p>
-                                                                <p
-                                                                    class="ml-1">1,83m</p>
-                                                                <p
-                                                                    class="ml-1">69kg</p>
-                                                            </div>
-                                                            <div
-                                                                class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center">
-                                                                <a
-                                                                    href="https://www.instagram.com/apurdy97/">
-                                                                    <div
-                                                                        class=" mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-full">
-                                                                        <p
-                                                                            class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram
-                                                                        </p>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="col-start-2 col-span-1 row-start-9 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white">
-                                                        <div
-                                                            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl">
-                                                            Ben Burkhalter
-                                                        </div>
-                                                        <div
-                                                            class="flex items-center justify-center">
-                                                            <img
-                                                                src="images/ben.png"
-                                                                alt="ben"
-                                                                width="700"
-                                                                height="337">
-                                                        </div>
-                                                        <div
-                                                            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg">
-                                                            <div
-                                                                class="col-start-1 ">
-                                                                <p
-                                                                    class="ml-1">Kraj
-                                                                    pochodzenia:</p>
-                                                                <p
-                                                                    class="ml-1">Najważniejsze
-                                                                    przejście:</p>
-                                                                <p
-                                                                    class="ml-1">Wzrost:</p>
-                                                                <p
-                                                                    class="ml-1">Waga:</p>
-                                                            </div>
-                                                            <div
-                                                                class="col-start-2">
-                                                                <p
-                                                                    class="ml-1">Birmingham,
-                                                                    USA</p>
-                                                                <p
-                                                                    class="ml-1">The
-                                                                    Game 8C<p>
-                                                                        <p
-                                                                            class="ml-1">1,83m</p>
-                                                                        <p
-                                                                            class="ml-1">69kg</p>
-                                                                    </div>
-                                                                    <div
-                                                                        class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center">
-                                                                        <a
-                                                                            href="https://www.instagram.com/apurdy97/">
-                                                                            <div
-                                                                                class=" mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-full">
-                                                                                <p
-                                                                                    class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
-                                                                            </div>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                  class="flex items-center justify-center mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-90px"
+                >
+                  <img
+                    src="images/instagram.png"
+                    alt="ig_logo"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-start-2 col-span-1 row-start-8 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white"
+        >
+          <div
+            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl"
+          >
+            Zach Galla
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="images/zach.png"
+              alt="zachgalla"
+              width="700"
+              height="337"
+            />
+          </div>
+          <div
+            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg"
+          >
+            <div class="col-start-1">
+              <p class="ml-1">Kraj pochodzenia:</p>
+              <p class="ml-1">Najważniejsze przejście:</p>
+              <p class="ml-1">Wzrost:</p>
+              <p class="ml-1">Waga:</p>
+            </div>
+            <div class="col-start-2">
+              <p class="ml-1">Atlanta, USA</p>
+              <p class="ml-1">The Process 8C+</p>
 
-                                                    </div>
-                                                    <!-- FOOTER -->
-                                                    <div
-                                                        class="shadow-2xl bg-gray-300 rounded col-start-1 col-span-7 row-start-6">
-                                                        <div
-                                                            class="shadow-2xl bg-gray-800 rounded mt-2 ml-2 mr-2">
-                                                            <h2
-                                                                class="text-s text-center text-white text-4xl font-bold">
-                                                                Źródła
-                                                            </h2>
-                                                        </div>
-                                                        <div
-                                                            class=" flex mt-4 items-center justify-center mr-4 ml-4">
-                                                            <a
-                                                                class="col-start-1 col-span-2"
-                                                                href="https://www.8a.nu/">
-                                                                <div
-                                                                    class="flex justify-center items-center mt-4">
-                                                                    <img
-                                                                        src="images/vertical_life_logo.png"
-                                                                        alt="8a.nu logo"
-                                                                        width="700"
-                                                                        height="337">
-                                                                </div>
-                                                            </a>
-                                                            <div
-                                                                class="items-center justify-center flex">
-                                                                <svg
-                                                                    class="h-107 w-107 flex-non stroke-black stroke-2"
-                                                                    width="107.5"
-                                                                    height="107.5">
-                                                                    <path
-                                                                        d="M 60 10
-                                     L 70.707 42.361
-                                     H 106.18
-                                     L 77.639 62.639
-                                     L 91.457 99
-                                     L 60 75.194
-                                     L 28.543 99
-                                     L 42.361 62.639
-                                     L 13.82 42.361
-                                     H 49.27
-                                     L 60 10
-                                     Z"
-                                                                        fill="#2563EB" />
-                                                                </svg>
-                                                            </div>
+              <p></p>
+              <p class="ml-1">1,67m</p>
+              <p class="ml-1">62kg</p>
+            </div>
+            <div
+              class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center"
+            >
+              <a class="w-1/4" href="https://www.instagram.com/zach_galla/">
+                <div
+                  class="flex items-center justify-center mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-90px"
+                >
+                  <img
+                    src="images/instagram.png"
+                    alt="ig_logo"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-start-1 col-span-1 row-start-9 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white"
+        >
+          <div
+            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl"
+          >
+            Austin Purdy
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="images/austin.png"
+              alt="austinpurdy"
+              width="700"
+              height="337"
+            />
+          </div>
+          <div
+            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg"
+          >
+            <div class="col-start-1">
+              <p class="ml-1">Kraj pochodzenia:</p>
+              <p class="ml-1">Najważniejsze przejście:</p>
+              <p class="ml-1">Wzrost:</p>
+              <p class="ml-1">Waga:</p>
+            </div>
+            <div class="col-start-2">
+              <p class="ml-1">Spring, USA</p>
+              <p class="ml-1">Insomniac 8C+</p>
 
-                                                        </div>
-                                                    </div>
-                                                </body>
-                                            </html>
+              <p></p>
+              <p class="ml-1">1,83m</p>
+              <p class="ml-1">69kg</p>
+            </div>
+            <div
+              class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center"
+            >
+              <a class="w-1/4" href="https://www.instagram.com/apurdy97/">
+                <div
+                  class="flex items-center justify-center mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-90px"
+                >
+                  <img
+                    src="images/instagram.png"
+                    alt="ig_logo"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-start-2 col-span-1 row-start-9 row-span-1 ml-2 mr-2 mt-2 mb-2 rounded-lg shadow-2xl bg-white"
+        >
+          <div
+            class="bg-gray-700 text-center text-white font-bold rounded-t-lg text-3xl"
+          >
+            Ben Burkhalter
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/ben.png" alt="ben" width="700" height="337" />
+          </div>
+          <div
+            class="grid grid-cols-2 bg-gray-700 text-xl text-white font-bold rounded-b-lg"
+          >
+            <div class="col-start-1">
+              <p class="ml-1">Kraj pochodzenia:</p>
+              <p class="ml-1">Najważniejsze przejście:</p>
+              <p class="ml-1">Wzrost:</p>
+              <p class="ml-1">Waga:</p>
+            </div>
+            <div class="col-start-2">
+              <p class="ml-1">Birmingham, USA</p>
+              <p class="ml-1">The Game 8C</p>
+
+              <p></p>
+              <p class="ml-1">1,83m</p>
+              <p class="ml-1">69kg</p>
+            </div>
+            <div
+              class="col-start-1 col-span-2 text-center text-lg text-gray-800 flex items-center justify-center"
+            >
+              <a class="w-1/4" href="https://www.instagram.com/benburrk/">
+                <div
+                  class="flex items-center justify-center mt-1 mb-1 ml-1 mr-1 bg-white rounded-full shadow hover:bg-gray-200 w-90px"
+                >
+                  <img
+                    src="images/instagram.png"
+                    alt="ig_logo"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="ml-4 mr-4 mt-1 mb-2 text-2xl">Instagram</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div
+      class="shadow-2xl bg-gray-300 rounded col-start-1 col-span-7 row-start-6"
+    >
+      <div class="shadow-2xl bg-gray-800 rounded mt-2 ml-2 mr-2">
+        <h2 class="text-s text-center text-white text-4xl font-bold">Źródła</h2>
+      </div>
+      <div class="flex mt-4 items-center justify-center mr-4 ml-4">
+        <a class="col-start-1 col-span-2" href="https://www.8a.nu/">
+          <div class="flex justify-center items-center mt-4">
+            <img
+              src="images/vertical_life_logo.png"
+              alt="8a.nu logo"
+              width="700"
+              height="337"
+            />
+          </div>
+        </a>
+        <div class="items-center justify-center flex">
+          <svg
+            class="h-107 w-107 flex-non stroke-black stroke-2"
+            width="107.5"
+            height="107.5"
+          >
+            <path
+              d="M 60 10
+L 70.707 42.361
+H 106.18
+L 77.639 62.639
+L 91.457 99
+L 60 75.194
+L 28.543 99
+L 42.361 62.639
+L 13.82 42.361
+H 49.27
+L 60 10
+Z"
+              fill="#2563EB"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
