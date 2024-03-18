@@ -3,12 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AWWW Blok 02 | Punktacja </title>
-        <link rel="stylesheet" href="./css/style.css">
+        <title>AWWW Blok 02</title>
+        <link rel="stylesheet" href="./css/test.css">
     </head>
 
-    <body class="bg-gray-100 w-1/2">
-        <header>
+    <body class="bg-gray-100 w-2/3">        
+        <header class>
+
+            
             <div class="shadow-2xl bg-blue-200 rounded mb-4 mt-4">
                 <h1 class="text-center text-2xl font-bold underline">
                     Ranking wspinaczy na świecie
@@ -17,6 +19,7 @@
         </header>
 
         <article>
+            
             <div class="shadow-2xl bg-blue-200 rounded">
                 <h2 class="text-xl text-center text-blue-600 font-bold"> Zasada
                     działania</h2>
@@ -37,7 +40,7 @@
             </div>
             <h2 class="text-xl text-blue-600 font-bold"></h2>
             <details>
-                <summary class="font-bold">Wspinaczka</summary>
+                <summary class="font-bold text-black hover:text-gray-600">Wspinaczka</summary>
                 <p>
                     <strong>Wspinaczka</strong> to sport lub aktywność
                     rekreacyjna polegająca na
@@ -160,7 +163,7 @@
                     </thead>
                     <tbody class="text-gray-700">
                         <tr>
-                            <th class="px-4 py-2">Vadim Timonov</th>
+                            <th class="px-4 py-2"> Vadim Timonov</th>
                             <th class="px-4 py-2">12171</th>
                             <th class="px-4 py-2">1996</th>
                         </tr>
@@ -220,7 +223,7 @@
                         href="niema.html">
                 </map>
             </div>
-        </article>
+
 
         <h2 class="text-xl text-blue-600 font-bold"> </h2>
         <div class="shadow-2xl bg-blue-200 rounded mt-4">
@@ -252,19 +255,19 @@
                         najlepszy?</strong></label><br>
                 <input type="radio" id="timonov" name="fav_climber"
                     value="HTML">
-                <label for="timonov">VadimTimonov</label><br>
+                <label class="hover:underline" for="timonov">Vadim Timonov</label><br>
                 <input type="radio" id="bosi" name="fav_climber"
                     value="CSS">
-                <label for="bosi">William Bosi</label><br>
+                <label class="hover:underline" for="bosi">William Bosi</label><br>
                 <input type="radio" id="vidi" name="fav_climber"
                     value="JavaScript">
-                <label for="vidi">Pietro Vidi</label><br>
+                <label class="hover:underline" for="vidi">Pietro Vidi</label><br>
                 <input type="radio" id="galla" name="fav_climber"
                     value="JavaScript">
-                <label for="galla">Zach Galla</label><br>
+                <label class="hover:underline" for="galla">Zach Galla</label><br>
                 <input type="radio" id="purdy" name="fav_climber"
                     value="JavaScript">
-                <label for="purdy">Austin Purdy</label><br>
+                <label class="hover:underline" for="purdy">Austin Purdy</label><br>
                 <label for="file">Procent wypełnienia ankiety:</label>
                 <progress id="file" max="100" value="75">0%</progress>
                 <br><br>
@@ -300,6 +303,8 @@
             </form>
         </div>
 
+        
+    </article>
         <footer class="mt-8">
             <div>
                 <div class="shadow-2xl bg-blue-200 rounded mt-4">
@@ -313,7 +318,27 @@
                             width="700" height="337">
                     </div>
                 </a>
-            </div>
+                <div class="flex justify-center items-center mt-4">
+                    <a href="star.html">
+                        <svg class="h-200 w-200 flex-none fill-yellow-400 stroke-black stroke-2" width="215" height="215">
+                            <path d="M 120 20
+                                     L 141.414 84.7215
+                                     H 212.36
+                                     L 155.278 125.278
+                                     L 182.914 197.999
+                                     L 120 150.389
+                                     L 57.0861 197.999
+                                     L 84.7216 125.278
+                                     L 27.64 84.7215
+                                     H 99.0857
+                                     L 120 20
+                                     Z" 
+                                fill="#FFD700" />
+                        </svg>
+                    </a>
+                </div>
+                
+            </div>   
         </footer>
     </body>
 </html>
