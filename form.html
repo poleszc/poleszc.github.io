@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/bootstrap.bundle.min.js"> </script>
+        <title>Document</title>
+    </head>
+
+    <body class="bg-body-secondary">
+        <div class="container">
+            <!-- Header -->
+            <header>
+                <div class="row py-4 text-center">
+                    <h1>Zapłać za dostęp</h1>
+                    <p> Ta strona pozwala zapłacić Ci za coś</p>
+                </div>
+            </header>
+            <!-- Main Content -->
+            <article>
+                <div class="row">
+                    <!-- Form row -->
+                    <div class="col-md-8 ">
+                        <h2 class="mb-2"> Twoje Dane:</h2>
+                        <form>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="inputName" class="form-label">Imię:</label>
+                                    <input type="text" class="form-control" placeholder="Imię" aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <label for="inputSurname" class="form-label">Nazwisko:</label>
+                                    <input type="text" class="form-control" placeholder="Nazwisko" aria-label="Last name">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label for="inputUsername" class="form-label">Nazwa użytkownika: </label>
+                                <div class="input-group has-validation">
+                                    <input type="text" class="form-control" id="username" placeholder="Nazwa użytkownika" required="">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label for="inputEmail" class="form-label">Email: </label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" id="username" placeholder="twojmail@gmail.com" required="">
+                                </div>
+                            </div>
+
+                            <hr>
+                            <h3>Adres:</h3>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="inputStreetname" class="form-label">Ulica:</label>
+                                    <input type="text" class="form-control" placeholder="Adres" aria-label="Last name">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="inputVoi" class="form-label">Wybierz województwo:</label>
+                                    <select class="form-select form-select" name="inputCountry" id="inputCountry">
+                                        <option selected>Wybierz województwo:</option>
+                                        <option value="">dolnośląskie</option>
+                                        <option value="">kujawsko-pomorskie</option>
+                                        <option value="">lubelskie</option>
+                                        <option value="">lubuskie</option>
+                                        <option value="">łódzkie</option>
+                                        <option value="">małopolskie</option>
+                                        <option value="">mazowieckie</option>
+                                        <option value="">opolskie</option>
+                                        <option value="">podkarpackie</option>
+                                        <option value="">podlaskie</option>
+                                        <option value="">pomorskie</option>
+                                        <option value="">śląskie</option>
+                                        <option value="">świętokrzyskie</option>
+                                        <option value="">warmińsko-mazurskie</option>
+                                        <option value="">wielkopolskie</option>
+                                        <option value="">zachodniopomorskie</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <div class="mb-3">
+                                        <label for="inputCountry" class="form-label">Kraj:</label>
+                                        <select class="form-select form-select" name="inputCountry" id="inputCountry">
+                                            <option selected>Wybierz kraj:</option>
+                                            <option value="">Polska</option>
+                                            <option value="">Niemcy</option>
+                                            <option value="">Włochy</option>
+                                            <option value="">Szwecja</option>
+                                            <option value="">Austria</option>
+                                            <option value="">Szwajcaria</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="col">
+                                        <label for="inputZipCode" class="form-label">Kod Pocztowy:</label>
+                                        <input type="text" class="form-control" placeholder="00-152" aria-label="zipCode">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h3> Dane do płatności</h3>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="inputCardName" class="form-label">Imie właściciela karty:</label>
+                                    <input type="text" class="form-control" placeholder="Imię i Nazwisko" aria-label="Last name">
+                                </div>
+                                <div class="col">
+                                    <label for="inputCardNumber" class="form-label">Numer karty:</label>
+                                    <input type="text" class="form-control" placeholder="0000-0000-0000-0000-0000" aria-label="Last name">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="inputCardDate" class="form-label">Data ważnosci karty:</label>
+                                    <input type="text" class="form-control" placeholder="14-05-2024" aria-label="expirationDate">
+                                </div>
+                                <div class="col">
+                                    <label for="inputCvcCode" class="form-label">Kod CVC: </label>
+                                    <input type="text" class="form-control" placeholder="XXX" aria-label="cvcCode">
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="same-address">
+                                <label class="form-check-label" for="same-address">Potrzebuje faktury VAT</label>
+                            </div>
+                            <hr>
+                            <button class="w-100 btn btn-primary btn-lg" type="submit">Zakończ i zapłać</button>
+                        </form>
+                    </div>
+                    <!-- Side row -->
+                    <div class="container col">
+                        <h4 class="justify-content-between">
+                            <span class="mb-2"> Liczba Produktów:</span>
+                            <span class="badge bg-primary rounded-pill">2</span>
+                        </h4>
+                        <ul class="card list-group mb-4">
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <h6>Dostęp do strony</h6>
+                                <span>150zł</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <h6>Podatek</h6>
+                                <span>120zł</span>
+                            </li>
+                            <li class="text-success list-group-item d-flex justify-content-between lh-sm">
+                                <h6>Kod zniżkowy</h6>
+                                <span>-20zł</span>
+                            </li>
+                            <li class="font-weight-bold list-group-item d-flex justify-content-between lh-sm bg-primary-subtle">
+                                <h6>Twoja suma: </h6>
+                                <span>250zł</span>
+                            </li>
+
+                        </ul>
+                        <div class="input-group has-validation">
+                            <input type="text" class="form-control" id="username" placeholder="Kod Promocyjny" required="">
+                            <button class="btn btn-primary">Zatwierdź</button>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- Footer -->
+            <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+                <p class="mb-1">© 2024 Created by po448390, MIMUW</p>
+                <p class="mb-1"> <a href="https://www.mimuw.edu.pl/pl/">Dodatkowe Informacje</a> </p>
+            </footer>
+        </div>
+    </body>
+
+</html>
